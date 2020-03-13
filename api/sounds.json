@@ -21,5 +21,110 @@
 		"title" : "Wat is dit?",
 		"file" : "Wat-is-dit",
 		"mp3" : true
+	},
+	{
+		"title" : "Hallo",
+		"file" : "hallo",
+		"mp3" : true
+	},
+	{
+		"title" : "Ik blijf het toch zeggen",
+		"file" : "ja-ik-blijf-het-toch-zeggen",
+		"mp3" : true
+	},
+	{
+		"title" : "Groeeeeen",
+		"file" : "groeeeeen",
+		"mp3" : true
+	},
+	{
+		"title" : "Onvoldoende!",
+		"file" : "duitste-leraar-onvoldoende",
+		"mp3" : true
+	},
+	{
+		"title" : "Krakaka",
+		"file" : "krakaka",
+		"mp3" : true
+	},
+	{
+		"title" : "Oh Jazeker!",
+		"file" : "oh-jazeker-kort",
+		"mp3" : true
+	},
+	{
+		"title" : "Ja straks",
+		"file" : "ja-straks",
+		"mp3" : true
+	},
+	{
+		"title" : "Rustaâag",
+		"file" : "rustaaagh",
+		"mp3" : true
+	},
+	{
+		"title" : "Je codeert niet?",
+		"file" : "codeert-niet",
+		"mp3" : true,
+		"ogg" : true
+	},
+	{
+		"title" : "Kopje chino",
+		"file" : "kopje-chino",
+		"mp3" : true
+	},
+	{
+		"title" : "Man man man",
+		"file" : "man-man-man",
+		"mp3" : true
+	},
+	{
+		"title" : "🏠🌲",
+		"file" : "eigen-huis-en-tuin",
+		"mp3" : true
+	},
+	{
+		"title" : "English",
+		"subtitle" : "Do you speak it?",
+		"file" : "english-do-you-speak-it",
+		"mp3" : true
+	},
+	{
+		"title" : "freak out 🎶",
+		"file" : "freak-out",
+		"mp3" : true
+	},
+	{
+		"title" : "☕️🕐",
+		"file" : "koffietijd",
+		"mp3" : true
+	},
+	{
+		"title" : "🔊 🚔",
+		"file" : "sound-of-da-police",
+		"mp3" : true
+	},
+	{
+		"title" : "Mand!",
+		"file" : "mand",
+		"mp3" : true
+	},
+	{
+		"title" : "Mand(je)",
+		"subtitle" : "net niet",
+		"file" : "mandje-net-niet",
+		"mp3" : true
+	},
+	{
+		"title" : "Mand(je)",
+		"subtitle" : "ook nog lang",
+		"file" : "mandje-lang",
+		"mp3" : true
+	},
+	{
+		"title" : "Mand(je)",
+		"subtitle" : "super lang",
+		"file" : "mandje-super-lang",
+		"mp3" : true
 	}
 ]

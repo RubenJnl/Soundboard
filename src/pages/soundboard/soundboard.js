@@ -13,7 +13,7 @@ const getSoundInfo = sound => {
 const getSounds = sound => {
     let str = ``
     if (sound.file){
-        str += `<audio id="${sound.file}" preload="auto" webkit-playsinline>`
+        str += `<audio id="${sound.file}" preload="false" webkit-playsinline>`
 
         if (sound.mp3) {
             str += `<source src="assets/sounds/${sound.file}.mp3" type="audio/mp4">`
@@ -46,8 +46,21 @@ API.get("sounds.json").then(sounds => {
         const soundEl = document.getElementById(sound.file);
 
         const button = document.querySelector('button[data-file="'+ sound.file +'"');
+        button.addEventListener('mouseenter', () => {
+            if(!soundEl.classList.contains('loaded')){
+                soundEl.load();    
+                soundEl.classList.add('loaded')
+            }
+        });
+
+
         button.addEventListener('click', () => {
-            soundEl.play()
+            if (soundEl.paused){
+                soundEl.play();
+            } else {
+                soundEl.load();
+            }
+            button.classList.toggle('active')
         });
         
     });
