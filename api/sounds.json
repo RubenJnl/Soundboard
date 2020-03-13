@@ -1,0 +1,25 @@
+[
+	{
+		"title" : "Initializing",
+		"file" : "Wii-fit-initializing",
+		"mp3" : true
+	},
+	{
+		"title" : "Womp Womp Womp",
+		"subtitle" : "Sad Trombone",
+		"file" : "sad-trombone",
+		"mp3" : true,
+		"m4a" : true
+	},
+	{
+		"title" : "Yib Yib",
+		"file" : "YipYip",
+		"mp3" : true,
+		"m4a" : true
+	},
+	{
+		"title" : "Wat is dit?",
+		"file" : "Wat-is-dit",
+		"mp3" : true
+	}
+]

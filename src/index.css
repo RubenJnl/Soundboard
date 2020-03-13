@@ -1,0 +1,45 @@
+
+.hide-until-load {
+  opacity: 1 !important;
+}
+
+.btn,
+button {
+  padding: 25px;
+  border-radius: 10px;
+  background: var(--button);
+  border: none;
+  color: white;
+  font-size: 20px;
+  transition: all .2s ease-in;
+}
+
+button:hover {
+  background: var(--button-hover);
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="font-size:18px"><text y="18">🔊</text></svg>'), auto;
+}
+
+.update-wrapper {
+  display: none;
+}
+
+.update-wrapper button {
+  background: var(--green);
+}
+
+.update-wrapper button:hover {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="font-size:18px"><text y="18">🔰</text></svg>'), auto;
+}
+
+.update-wrapper.update-wrapper--shown {
+  display: block;
+  margin-bottom: 2em;
+}
+
+.separator {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border-top: 0.7px solid var(--lighter-gray);
+  height: 1px;
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ruben's Soundboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="preconnect" href="https://res.cloudinary.com">
+    <link rel="dns-prefetch" href="https://res.cloudinary.com">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#301b3d">
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#140c19">
+    <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#301b3d">
+    <meta name="google" content="notranslate">
+    
+    <link rel="preload" href="{{asset htmlWebpackPlugin.files.js 'main'}}" as="script">
+    <link rel="preload" href="{{asset htmlWebpackPlugin.files.css 'main'}}" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="{{asset htmlWebpackPlugin.files.css 'main'}}">
+    </noscript>
+
+    <!-- inlined app shell CSS -->
+    <style>{{{inlinecss compilation.assets htmlWebpackPlugin.files}}}</style>
+</head>
+
+<body>
+    {{!-- {{> partials/navbar}} --}}
+
+    <div class="main">
+        <h2>The Soundboard</h2>
+        {{> sections/intro }}
+        {{> sections/update }}
+
+        {{> pages/soundboard/soundboard }}
+    </div>
+    
+
+    {{!-- inlined app shell JS --}}
+    <script>{{{inlinejs compilation.assets htmlWebpackPlugin.files}}}</script>
+    <script async defer src="{{asset htmlWebpackPlugin.files.js 'main'}}"></script>
+</body>
+
+</html>
