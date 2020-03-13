@@ -12,12 +12,13 @@ if ('serviceWorker' in navigator) {
         workbox.addEventListener('waiting', (event) => {
             console.log('🔰 update available');
             
-            const updateBtn = document.getElementById('updateSB');
+            
             const update = document.getElementById('update')
             update.innerHTML = `<h3>Er is een update beschikbaar!</h3>
                                 <button id="updateSB" class="update">Update soundboard</button>`;
             update.classList.add('update-wrapper--shown');
             
+            const updateBtn = document.getElementById('updateSB');
             updateBtn.addEventListener('click', () => {
                 console.log('clicked 🔰')
 
