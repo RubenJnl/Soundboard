@@ -60,9 +60,16 @@ API.get("sounds.json").then(sounds => {
             } else {
                 soundEl.load();
             }
-            button.classList.toggle('active')
+            
+            button.classList.toggle('active');
+
+           
         });
         
+        soundEl.addEventListener('ended', (e) => {
+            button.classList.toggle('active')
+            
+        })
     });
 
 });

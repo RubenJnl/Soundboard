@@ -105,24 +105,39 @@
 		"mp3" : true
 	},
 	{
-		"title" : "Mand!",
+		"title" : "duh!",
+		"file" : "duh",
+		"mp3" : true
+	},
+	{
+		"title" : "Yeehoe!",
+		"file" : "yieehoe",
+		"mp3" : true
+	},
+	{
+		"title" : "Rabobank",
+		"file" : "rabobank",
+		"mp3" : true
+	},
+	{
+		"title" : "🧺 Mand!",
 		"file" : "mand",
 		"mp3" : true
 	},
 	{
-		"title" : "Mand(je)",
+		"title" : "🧺 Mand(je)",
 		"subtitle" : "net niet",
 		"file" : "mandje-net-niet",
 		"mp3" : true
 	},
 	{
-		"title" : "Mand(je)",
+		"title" : "🧺 Mand(je)",
 		"subtitle" : "ook nog lang",
 		"file" : "mandje-lang",
 		"mp3" : true
 	},
 	{
-		"title" : "Mand(je)",
+		"title" : "🧺 Mand(je)",
 		"subtitle" : "super lang",
 		"file" : "mandje-super-lang",
 		"mp3" : true

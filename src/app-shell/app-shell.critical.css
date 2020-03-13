@@ -18,6 +18,9 @@
     --cherry: #f84166;
     --light-blue: #64cbf7;
     --main-text: #301b3d;
+    --button: #ac7aca;
+    --button-hover: #733a94;
+    --button-active: #3a4094;
     --secondary-text: var(--darker-gray);
     --apps-shell-zindex: 1000;
     --modal-z-index: 10000;
@@ -48,8 +51,6 @@ body {
         --main-text: #f7f7f7;
         --button: #ac7aca;
         --button-hover: #733a94;
-        --tabs-bg: #3333;
-        --card-bg: #111;
     }
 }
 

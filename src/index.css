@@ -11,12 +11,30 @@ button {
   border: none;
   color: white;
   font-size: 20px;
-  transition: all .2s ease-in;
+  transform: translateX(0) translateY(0) scale(1);
+  transition: all .25s ease-in;
+  box-shadow: 2px 2px 0 0 black;
 }
 
-button:hover {
+button:hover  {
   background: var(--button-hover);
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="font-size:18px"><text y="18">▶️</text></svg>'), auto; 
+  transform: translateX(2px) translateY(2px) scale(1);
+  box-shadow: 0 0 0 0 black;
+  transition: all .25s ease-in;
+}
+
+button.active {
+  background: var(--button-active);
   cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="font-size:18px"><text y="18">🔊</text></svg>'), auto;
+  transform: translateX(5px) translateY(5px) scale(.99);
+  box-shadow: -1px -1px 0 0 black;
+  transition: all .25s ease-in;
+}
+
+button em {
+  display: block;
+  font-size: 17px;
 }
 
 .update-wrapper {
