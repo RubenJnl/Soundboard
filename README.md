@@ -29,7 +29,7 @@ Example:
 
 ### Develop:
 
-`npm run dev`
+`npm run dev` || `npm start`
 
 ### Build
 

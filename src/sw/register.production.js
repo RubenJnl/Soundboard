@@ -14,6 +14,8 @@ if ('serviceWorker' in navigator) {
             
             const updateBtn = document.getElementById('updateSB');
             const update = document.getElementById('update')
+            update.innerHTML = `<h3>Er is een update beschikbaar!</h3>
+                                <button id="updateSB" class="update">Update soundboard</button>`;
             update.classList.add('update-wrapper--shown');
             
             updateBtn.addEventListener('click', () => {
