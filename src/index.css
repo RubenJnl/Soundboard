@@ -16,12 +16,15 @@ button {
   box-shadow: 2px 2px 0 0 black;
 }
 
-button:hover  {
-  background: var(--button-hover);
-  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="font-size:18px"><text y="18">▶️</text></svg>'), auto; 
-  transform: translateX(2px) translateY(2px) scale(1);
-  box-shadow: 0 0 0 0 black;
-  transition: all .25s ease-in;
+@media(hover:hover){
+
+  button:hover  {
+    background: var(--button-hover);
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="font-size:18px"><text y="18">▶️</text></svg>'), auto; 
+    transform: translateX(2px) translateY(2px) scale(1);
+    box-shadow: 0 0 0 0 black;
+    transition: all .25s ease-in;
+  }
 }
 
 button.active {

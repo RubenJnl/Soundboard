@@ -46,18 +46,21 @@ API.get("sounds.json").then(sounds => {
         const soundEl = document.getElementById(sound.file);
 
         const button = document.querySelector('button[data-file="'+ sound.file +'"');
-        button.addEventListener('mouseenter', () => {
+
+        const preload = (soundEl, e) => {
             if(!soundEl.classList.contains('loaded')){
                 soundEl.load();    
                 soundEl.classList.add('loaded')
             }
-        });
+        }
+        button.addEventListener('mouseenter', preload.bind(this, soundEl));
+        button.addEventListener('mouseenter', preload.bind(this, soundEl));
 
 
         button.addEventListener('click', () => {
             if (soundEl.paused){
                 soundEl.play();
-            } else {
+            } else if (soundEl.load) {
                 soundEl.load();
             }
             
