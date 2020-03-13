@@ -24,7 +24,7 @@
   },
   "homepage": "https://soundboard.rubens.website/",
   "devDependencies": {
-    "clean-webpack-plugin": "^3.0.0",
+    "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.4.2",
     "handlebars": "^4.1.0",
