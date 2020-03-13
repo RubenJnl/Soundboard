@@ -35,16 +35,10 @@ Example:
 
 `npm run build`
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eddddbd3-c257-4425-9493-60ed8803eaba/deploy-status)](https://app.netlify.com/sites/the-soundboard/deploys)
+
+
 ### Serve
 
 (production build)
 `npm run serve`
-
-### Deploy
-
-`npm run deploy`
-
-### Shortcuts
-
-`npm run build+serve`
-`npm run build+deploy`
