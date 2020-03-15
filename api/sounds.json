@@ -12,6 +12,16 @@
 		"m4a" : true
 	},
 	{
+		"title" : "What does this button do?",
+		"file" : "what-does-this-button-do",
+		"mp3" : true
+	},
+	{
+		"title" : "Its's me Mario",
+		"file" : "its-s-me-Mario",
+		"mp3" : true
+	},
+	{
 		"title" : "Yib Yib",
 		"file" : "YipYip",
 		"mp3" : true,
@@ -58,6 +68,11 @@
 		"mp3" : true
 	},
 	{
+		"title" : "Ja vet nummer",
+		"file" : "ja-vet-nummer",
+		"mp3" : true
+	},
+	{
 		"title" : "Rustaâag",
 		"file" : "rustaaagh",
 		"mp3" : true
@@ -69,8 +84,18 @@
 		"ogg" : true
 	},
 	{
+		"title" : "☕️🕐",
+		"file" : "koffietijd",
+		"mp3" : true
+	},
+	{
 		"title" : "Kopje chino",
 		"file" : "kopje-chino",
+		"mp3" : true
+	},
+	{
+		"title" : "Maat, wat doe je?",
+		"file" : "maat-wat-doe-je",
 		"mp3" : true
 	},
 	{
@@ -81,6 +106,12 @@
 	{
 		"title" : "🏠🌲",
 		"file" : "eigen-huis-en-tuin",
+		"mp3" : true
+	},
+	{
+		"title" : "Yakety Sax",
+		"subtitle" : "Benny Hill",
+		"file" : "yakety-sax-Benny-Hill",
 		"mp3" : true
 	},
 	{
@@ -95,13 +126,30 @@
 		"mp3" : true
 	},
 	{
-		"title" : "☕️🕐",
-		"file" : "koffietijd",
+		"title" : "🔊 🚔",
+		"file" : "sound-of-da-police",
 		"mp3" : true
 	},
 	{
-		"title" : "🔊 🚔",
-		"file" : "sound-of-da-police",
+		"title" : "Silence!",
+		"subtitle" : "I kill you",
+		"file" : "silence-I-kill-you!",
+		"mp3" : true
+	},
+	{
+		"title" : "Spannend muziekje",
+		"subtitle" : "met intro",
+		"file" : "spannend-muziekje-intro",
+		"mp3" : true
+	},
+	{
+		"title" : "Spannend muziekje",
+		"file" : "spannend-muziekje",
+		"mp3" : true
+	},
+	{
+		"title" : "Spooky 👻",
+		"file" : "spooky",
 		"mp3" : true
 	},
 	{
@@ -117,6 +165,21 @@
 	{
 		"title" : "Rabobank",
 		"file" : "rabobank",
+		"mp3" : true
+	},
+	{
+		"title" : "R2D2",
+		"file" : "r2d2-straks",
+		"mp3" : true
+	},
+	{
+		"title" : "Use the force",
+		"file" : "use-the-force",
+		"mp3" : true
+	},
+	{
+		"title" : "Why wish you become jedi",
+		"file" : "why-wish-you-become-jedi",
 		"mp3" : true
 	},
 	{
