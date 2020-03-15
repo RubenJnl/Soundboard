@@ -23,6 +23,8 @@ if ('serviceWorker' in navigator) {
                 console.log('clicked 🔰')
 
                 workbox.addEventListener('controlling', () => {
+                    console.log('reload 🔁');
+                    
                     window.location.reload();
                 });
 
