@@ -12,6 +12,12 @@
 		"m4a" : true
 	},
 	{
+		"title" : "🥁",
+		"subtitle" : "Drum roll",
+		"file" : "drum-roll",
+		"mp3" : true
+	},
+	{
 		"title" : "What does this button do?",
 		"file" : "what-does-this-button-do",
 		"mp3" : true
