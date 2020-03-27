@@ -2,7 +2,7 @@
     margin: 0 1.5em;
 }
 
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 70em) {
 
     .main {
         margin: 0 auto;
@@ -13,14 +13,14 @@
 
 /* for disabling selection on navigation */
 
-/* .no-select {
+button {
     -ms-user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
 }
 
-.hide-until-load {
+/* .hide-until-load {
     opacity: 0;
     transition: opacity 150ms;
-} */
+}  */

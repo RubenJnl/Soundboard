@@ -1,0 +1,64 @@
+.fork {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+    overflow: hidden; /* prevents adding scrollbar on rotating anchor */
+}
+
+.fork.is-shown {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+
+.fork a {
+    text-align: center;
+    display: block;
+    transform: rotate(45deg);
+    transform-origin: 50%;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(45deg);
+    }
+    10% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(90deg);
+    }
+    30% {
+        transform: rotate(5deg);
+    }
+    40% {
+        transform: rotate(80deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+    55% {
+        transform: rotate(55deg);
+    }
+    60% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+.fork a:hover {
+    animation: rotate 1s 1;
+    transition-timing-function: ease-out;
+}
+
+svg {
+    fill: var(--main-text);
+    display: block;
+    width: 2.5em;
+    height: 2.5em;
+}

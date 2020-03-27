@@ -1,4 +1,5 @@
 import(/*webpackChunkName: "soundboard-styles"*/ "./../../app-shell/soundboard.critical.css");
+
 import API from "./../../helpers/API";
 
 
@@ -73,6 +74,11 @@ API.get("sounds.json").then(sounds => {
             button.classList.toggle('active')
             
         })
+
+        // lazy load fork
+        import ( /*webpackChunkName: "fork"*/ "./../../components/fork/fork.js");
+
+
     });
 
 });
