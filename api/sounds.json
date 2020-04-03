@@ -90,6 +90,12 @@
 		"ogg" : true
 	},
 	{
+		"title" : "Mooie Tool",
+		"file" : "mooie-tool",
+		"mp3" : true,
+		"m4a" : true
+	},
+	{
 		"title" : "☕️🕐",
 		"file" : "koffietijd",
 		"mp3" : true
