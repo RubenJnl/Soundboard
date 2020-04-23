@@ -228,5 +228,10 @@
 		"subtitle" : "super lang",
 		"file" : "mandje-super-lang",
 		"mp3" : true
+	},
+	{
+		"title" : "Lang zal ze leven",
+		"file" : "lang-zal-ze-leven",
+		"mp3" : true
 	}
 ]
