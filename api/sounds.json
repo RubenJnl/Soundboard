@@ -18,6 +18,17 @@
 		"mp3" : true
 	},
 	{
+		"title" : "🥁",
+		"subtitle" : "Badum tish",
+		"file" : "ba-dum-tish",
+		"mp3" : true
+	},
+	{
+		"title" : "Whip!",
+		"file" : "whip-crack",
+		"mp3" : true
+	},
+	{
 		"title" : "What does this button do?",
 		"file" : "what-does-this-button-do",
 		"mp3" : true
@@ -207,6 +218,12 @@
 		"mp3" : true
 	},
 	{
+		"title" : "🦄 💃 🌈",
+		"subtitle" : "Pink fluffy unicorns",
+		"file" : "pink-fluffy-unicorns",
+		"mp3" : true
+	},
+	{
 		"title" : "🧺 Mand!",
 		"file" : "mand",
 		"mp3" : true
@@ -230,7 +247,8 @@
 		"mp3" : true
 	},
 	{
-		"title" : "Lang zal ze leven",
+		"title" : "🥳 🎶",
+		"subtitle" : "Lang zal ze leven",
 		"file" : "lang-zal-ze-leven",
 		"mp3" : true
 	}
