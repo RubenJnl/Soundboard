@@ -50,8 +50,11 @@ API.get("sounds.json").then(sounds => {
 
         const preload = (soundEl, e) => {
             if(!soundEl.classList.contains('loaded')){
-                soundEl.load();    
+                soundEl.load()
                 soundEl.classList.add('loaded')
+                if (typeof gtag === 'function') {
+                    gtag('play', sound.file)
+                }
             }
         }
         button.addEventListener('mouseenter', preload.bind(this, soundEl));
@@ -61,6 +64,9 @@ API.get("sounds.json").then(sounds => {
         button.addEventListener('click', () => {
             if (soundEl.paused){
                 soundEl.play();
+                if (typeof gtag === 'function') {
+                    gtag('play', sound.file)
+                }
             } else if (soundEl.load) {
                 soundEl.load();
             }

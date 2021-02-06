@@ -1,0 +1,7 @@
+[dev]
+  command = "npm start"
+  publish = "dist"
+
+[build]
+  command = "npm run build"
+  publish = "dist"

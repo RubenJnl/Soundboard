@@ -11,7 +11,9 @@ if ('serviceWorker' in navigator) {
         workbox.register();
         workbox.addEventListener('waiting', (event) => {
             console.log('🔰 update available');
-            
+            if (typeof gtag === 'function') {
+                gtag('update', 'show')
+            }
             
             const update = document.getElementById('update')
             update.innerHTML = `<h3>Er is een update beschikbaar!</h3>
@@ -21,6 +23,10 @@ if ('serviceWorker' in navigator) {
             const updateBtn = document.getElementById('updateSB');
             updateBtn.addEventListener('click', () => {
                 console.log('clicked 🔰')
+
+                if (typeof gtag === 'function') {
+                    gtag('update', 'click')
+                }
 
                 workbox.addEventListener('controlling', () => {
                     console.log('reload 🔁');
