@@ -12,7 +12,9 @@ if ('serviceWorker' in navigator) {
         workbox.addEventListener('waiting', (event) => {
             console.log('🔰 update available');
             if (typeof gtag === 'function') {
-                gtag('update', 'show')
+                gtag('event', 'update', {
+                    'value': 'show'
+                })
             }
             
             const update = document.getElementById('update')
@@ -25,7 +27,9 @@ if ('serviceWorker' in navigator) {
                 console.log('clicked 🔰')
 
                 if (typeof gtag === 'function') {
-                    gtag('update', 'click')
+                    gtag('event', 'update', {
+                        'value': 'click'
+                    })
                 }
 
                 workbox.addEventListener('controlling', () => {

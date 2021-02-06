@@ -21,19 +21,28 @@ const addFork = () => {
 
     forkLinkEl.addEventListener('click', () => {
         if (typeof gtag === 'function'){
-            gtag('click', 'github')
+            gtag('event', 'click', {
+                'event_category': 'link',
+                'value': 'github'
+            })
         }
     })
 
     forkEl.addEventListener('mouseenter', () => {
         if (typeof gtag === 'function'){
-            gtag('github', 'enter')
+            gtag('event', 'mouse', {
+                'event_category': 'enter',
+                'value': 'github'
+            })
         }
     })
 
     forkEl.addEventListener('mouseleave', () => {
         if (typeof gtag === 'function'){
-            gtag('github', 'leave')
+            gtag('event', 'mouse', {
+                'event_category': 'leave',
+                'value': github
+            })
         }
     })
     

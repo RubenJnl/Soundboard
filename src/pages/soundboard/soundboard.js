@@ -53,7 +53,10 @@ API.get("sounds.json").then(sounds => {
                 soundEl.load()
                 soundEl.classList.add('loaded')
                 if (typeof gtag === 'function') {
-                    gtag('play', sound.file)
+                    gtag('event', 'mouse', {
+                        'event_category': 'preload',
+                        'value': sound.file
+                    })
                 }
             }
         }
@@ -65,8 +68,11 @@ API.get("sounds.json").then(sounds => {
             if (soundEl.paused){
                 soundEl.play();
                 if (typeof gtag === 'function') {
-                    gtag('play', sound.file)
-                }
+                    gtag('event', 'click', {
+                        'event_category': 'play',
+                        'value': sound.file
+                    })
+                
             } else if (soundEl.load) {
                 soundEl.load();
             }
