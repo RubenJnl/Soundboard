@@ -72,6 +72,7 @@ API.get("sounds.json").then(sounds => {
                         'event_category': 'play',
                         'value': sound.file
                     })
+                }
                 
             } else if (soundEl.load) {
                 soundEl.load();
