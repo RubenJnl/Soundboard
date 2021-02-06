@@ -34,7 +34,9 @@ if ('serviceWorker' in navigator) {
 
                 workbox.addEventListener('controlling', () => {
                     console.log('reload 🔁');
-                    
+                    gtag('event', 'update', {
+                        'value': 'reload'
+                    })
                     window.location.reload();
                 });
 
