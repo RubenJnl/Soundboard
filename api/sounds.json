@@ -251,5 +251,10 @@
 		"subtitle" : "Lang zal ze leven",
 		"file" : "lang-zal-ze-leven",
 		"mp3" : true
+	},
+	{
+		"title" : "WTF Paul?",
+		"file" : "WTF-Paul",
+		"mp3" : true
 	}
 ]
