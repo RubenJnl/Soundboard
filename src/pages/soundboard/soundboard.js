@@ -87,6 +87,10 @@ API.get("sounds.json").then(sounds => {
                     })
                 }
                 
+            } else {
+                previouslyPlayed[name].pause()
+                button.classList.remove('active')
+                previouslyPlayed[name] = new Audio(soundEl.currentSrc)
             }
         });
 

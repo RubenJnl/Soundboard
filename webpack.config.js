@@ -62,10 +62,10 @@ module.exports = env => {
         module: {
             rules: [{
                     test: /\.hbs$/,
-                    loader: `handlebars-loader?helperDirs[]=${__dirname}/tasks`
+                    use: { loader: `handlebars-loader?helperDirs[]=${__dirname}/tasks` }
                 },
                 { test: /\.html/, loader: "html-loader" },
-                { test: /app-shell\.js$/, loader: MiniCssExtractPlugin.loader },
+                { test: /app-shell\.js$/, use: { loader: MiniCssExtractPlugin.loader} },
                 {
                     test: /\.css$/,
                     use: [{ loader: MiniCssExtractPlugin.loader }, "css-loader"]
@@ -74,7 +74,6 @@ module.exports = env => {
         },
         plugins: [
             ...conditionalPlugins,
-            new webpack.HashedModuleIdsPlugin(),
             new MiniCssExtractPlugin({
                 filename: "[name].[chunkhash].css"
             }),
@@ -95,13 +94,19 @@ module.exports = env => {
                 minify: { collapseWhitespace: true, removeComments: true },
                 inject: false
             }),
+            // new CopyWebpackPlugin({ patterns : [
+            //         { from: "api", to: "api", globOptions: { ignore: [".DS_Store"] } },
+            //         { from: "src/assets", to: "assets", globOptions: { ignore: [".DS_Store"] } },
+            //         { from: "sounds", to: 'assets/sounds', globOptions: { ignore: [".DS_Store"] } }
+            // ]}),
             new CopyWebpackPlugin([
-                { from: "api", to: "api", ignore: [".DS_Store"] },
-                { from: "src/assets", to: "assets", ignore: [".DS_Store"] },
-                { from: "sounds", to: 'assets/sounds', ignore: [".DS_Store"]}
+                    { from: "api", to: "api", ignore: [".DS_Store"] },
+                    { from: "src/assets", to: "assets", ignore: [".DS_Store"] },
+                    { from: "sounds", to: 'assets/sounds', ignore: [".DS_Store"]}
+                ]
                 // comment out for Workbox section (as it's only used for Service Worker section)
                 // { from: "src/sw/sw.js", to: "sw.js" }
-            ]),
+            ),
             new HtmlWebpackInlineSourcePlugin(),
             new WorkboxWebpackPlugin.InjectManifest({
                 swSrc: './src/sw/sw.js',
@@ -112,7 +117,7 @@ module.exports = env => {
             })
         ],
         devtool: "source-map",
-        optimization: { splitChunks: splitChunks },
+        optimization: { splitChunks: splitChunks, moduleIds: 'hashed' },
         performance: isProduction ? performanceConfig : {}
     };
 };
