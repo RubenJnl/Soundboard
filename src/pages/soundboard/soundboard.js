@@ -66,7 +66,13 @@ API.get("sounds.json").then(sounds => {
 
         button.addEventListener('click', () => {
             if (soundEl.paused){
-                soundEl.play();
+                const playable = new Audio(soundEl.currentSrc);
+                playable.addEventListener('ended', (e) => {
+                    button.classList.toggle('active')
+                })
+
+                playable.play();
+                
                 if (typeof gtag === 'function') {
                     gtag('event', 'click', {
                         'event_category': 'play',
@@ -82,11 +88,6 @@ API.get("sounds.json").then(sounds => {
 
            
         });
-        
-        soundEl.addEventListener('ended', (e) => {
-            button.classList.toggle('active')
-            
-        })
 
         // lazy load fork
         import ( /*webpackChunkName: "fork"*/ "./../../components/fork/fork.js");
