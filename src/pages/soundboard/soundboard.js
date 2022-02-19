@@ -2,6 +2,7 @@ import(/*webpackChunkName: "soundboard-styles"*/ "./../../app-shell/soundboard.c
 
 import API from "./../../helpers/API";
 
+const previouslyPlayed = {}
 
 const getSoundInfo = sound => {
     if (sound.file && sound.title){
@@ -65,14 +66,20 @@ API.get("sounds.json").then(sounds => {
 
 
         button.addEventListener('click', () => {
-            if (soundEl.paused){
-                const playable = new Audio(soundEl.currentSrc);
-                playable.addEventListener('ended', (e) => {
-                    button.classList.toggle('active')
-                })
+            const name = soundEl.getAttribute('id')
 
-                playable.play();
-                
+            if (typeof previouslyPlayed[name] === 'undefined') {
+                previouslyPlayed[name] = new Audio(soundEl.currentSrc)
+
+                previouslyPlayed[name].addEventListener('ended', () => {
+                    button.classList.remove('active')
+                })
+            }
+
+            if (previouslyPlayed[name].paused === true){
+                previouslyPlayed[name].play()
+                button.classList.add('active')
+
                 if (typeof gtag === 'function') {
                     gtag('event', 'click', {
                         'event_category': 'play',
@@ -80,13 +87,7 @@ API.get("sounds.json").then(sounds => {
                     })
                 }
                 
-            } else if (soundEl.load) {
-                soundEl.load();
             }
-            
-            button.classList.toggle('active');
-
-           
         });
 
         // lazy load fork
