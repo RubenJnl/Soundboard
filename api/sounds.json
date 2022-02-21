@@ -256,5 +256,35 @@
 		"title" : "WTF Paul?",
 		"file" : "WTF-Paul",
 		"mp3" : true
+	},
+	{
+		"title" : "Doe eens normaal man",
+		"file" : "Doe eens normaal man",
+		"mp3" : true
+	},
+	{
+		"title" : "Doe lekker zelf normaal",
+		"file" : "Doe lekker zelf normaal",
+		"mp3" : true
+	},
+	{
+		"title" : "Sjongejonge",
+		"file" : "Sjongejonge",
+		"mp3" : true
+	},
+	{
+		"title" : "Ja wat ach",
+		"file" : "Ja wat ach",
+		"mp3" : true
+	},
+	{
+		"title" : "Meneer Wilders",
+		"file" : "Meneer Wilders",
+		"mp3" : true
+	},
+	{
+		"title" : "Doe eens normaal en rustig man",
+		"file" : "Doe eens normaal en rustig man",
+		"mp3" : true
 	}
 ]
