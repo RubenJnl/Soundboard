@@ -286,5 +286,10 @@
 		"title" : "Doe eens normaal en rustig man",
 		"file" : "Doe eens normaal en rustig man",
 		"mp3" : true
+	},
+	{
+		"title" : "Jesus Christ Richard!",
+		"file" : "Richard",
+		"mp3" : true
 	}
 ]
