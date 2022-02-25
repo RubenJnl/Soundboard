@@ -229,15 +229,33 @@
 		"mp3" : true
 	},
 	{
+		"title" : "Kort",
+		"subtitle" : "🧺 Mand(je)",
+		"file" : "Kort",
+		"mp3" : true
+	},
+	{
 		"title" : "🧺 Mand(je)",
 		"subtitle" : "net niet",
 		"file" : "mandje-net-niet",
 		"mp3" : true
 	},
 	{
+		"title" : "Nog korter",
+		"subtitle" : "🧺 Mand(je)",
+		"file" : "Nog-korter",
+		"mp3" : true
+	},
+	{
 		"title" : "🧺 Mand(je)",
 		"subtitle" : "ook nog lang",
 		"file" : "mandje-lang",
+		"mp3" : true
+	},
+	{
+		"title" : "Veel te lang, moet korter",
+		"subtitle" : "🧺 Mand(je)",
+		"file" : "Veel-te-lang-moet-korter",
 		"mp3" : true
 	},
 	{
