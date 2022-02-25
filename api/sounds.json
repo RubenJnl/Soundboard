@@ -364,5 +364,10 @@
 		"title" : "Donald Duck",
 		"file" : "Donald Duck",
 		"mp3" : true
+	},
+	{
+		"title" : "Varken 🐷",
+		"file" : "Varken",
+		"mp3" : true
 	}
 ]
