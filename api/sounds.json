@@ -309,5 +309,65 @@
 		"title" : "Jesus Christ Richard!",
 		"file" : "Richard",
 		"mp3" : true
+	},
+	{
+		"title" : "Eine Deutsche Schallplatte!",
+		"file" : "Eine_Deutsche_Schallplatte",
+		"mp3" : true
+	},
+	{
+		"title" : "Rock & Roll",
+		"file" : "Rock_n_Roll",
+		"mp3" : true
+	},
+	{
+		"title" : "Roepi Roepi",
+		"file" : "Roepi_Roepie_Vogel",
+		"mp3" : true
+	},
+	{
+		"title" : "Wie bent u?",
+		"file" : "Wie bent u",
+		"mp3" : true
+	},
+	{
+		"title" : "Meep-meep!",
+		"file" : "meep-meep",
+		"mp3" : true
+	},
+	{
+		"title" : "We gaan bowlen",
+		"file" : "We gaan bowlen",
+		"mp3" : true
+	},
+	{
+		"title" : "Ik wil 🤬 bowlen!!!",
+		"file" : "Ik wil bowlen",
+		"mp3" : true
+	},
+	{
+		"title" : "Zeeleeuwtje geboren",
+		"file" : "Zeeleeuwtje geboren",
+		"mp3" : true
+	},
+	{
+		"title" : "Gaan we toch naar Drievliet",
+		"file" : "Gaan we toch naar Drievliet",
+		"mp3" : true
+	},
+	{
+		"title" : "Wat een mooi ding",
+		"file" : "Wat een mooi ding",
+		"mp3" : true
+	},
+	{
+		"title" : "Donald Duck",
+		"file" : "Donald Duck",
+		"mp3" : true
+	},
+	{
+		"title" : "Varken 🐷",
+		"file" : "Varken",
+		"mp3" : true
 	}
 ]
