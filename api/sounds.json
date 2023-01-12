@@ -1,313 +1,320 @@
 [
-	{
-		"title" : "Initializing",
-		"file" : "Wii-fit-initializing",
-		"mp3" : true
-	},
-	{
-		"title" : "Womp Womp Womp",
-		"subtitle" : "Sad Trombone",
-		"file" : "sad-trombone",
-		"mp3" : true,
-		"m4a" : true
-	},
-	{
-		"title" : "🥁",
-		"subtitle" : "Drum roll",
-		"file" : "drum-roll",
-		"mp3" : true
-	},
-	{
-		"title" : "🥁",
-		"subtitle" : "Badum tish",
-		"file" : "ba-dum-tish",
-		"mp3" : true
-	},
-	{
-		"title" : "Whip!",
-		"file" : "whip-crack",
-		"mp3" : true
-	},
-	{
-		"title" : "What does this button do?",
-		"file" : "what-does-this-button-do",
-		"mp3" : true
-	},
-	{
-		"title" : "Its's me Mario",
-		"file" : "its-s-me-Mario",
-		"mp3" : true
-	},
-	{
-		"title" : "Yib Yib",
-		"file" : "YipYip",
-		"mp3" : true,
-		"m4a" : true
-	},
-	{
-		"title" : "Wat is dit?",
-		"file" : "Wat-is-dit",
-		"mp3" : true
-	},
-	{
-		"title" : "Hallo",
-		"file" : "hallo",
-		"mp3" : true
-	},
-	{
-		"title" : "Ik blijf het toch zeggen",
-		"file" : "ja-ik-blijf-het-toch-zeggen",
-		"mp3" : true
-	},
-	{
-		"title" : "Groeeeeen",
-		"file" : "groeeeeen",
-		"mp3" : true
-	},
-	{
-		"title" : "Onvoldoende!",
-		"file" : "duitste-leraar-onvoldoende",
-		"mp3" : true
-	},
-	{
-		"title" : "Krakaka",
-		"file" : "krakaka",
-		"mp3" : true
-	},
-	{
-		"title" : "Oh Jazeker!",
-		"file" : "oh-jazeker-kort",
-		"mp3" : true
-	},
-	{
-		"title" : "Ja straks",
-		"file" : "ja-straks",
-		"mp3" : true
-	},
-	{
-		"title" : "Ja vet nummer",
-		"file" : "ja-vet-nummer",
-		"mp3" : true
-	},
-	{
-		"title" : "Rustaâag",
-		"file" : "rustaaagh",
-		"mp3" : true
-	},
-	{
-		"title" : "Je codeert niet?",
-		"file" : "codeert-niet",
-		"mp3" : true,
-		"ogg" : true
-	},
-	{
-		"title" : "Mooie Tool",
-		"file" : "mooie-tool",
-		"mp3" : true,
-		"m4a" : true
-	},
-	{
-		"title" : "☕️🕐",
-		"file" : "koffietijd",
-		"mp3" : true
-	},
-	{
-		"title" : "Kopje chino",
-		"file" : "kopje-chino",
-		"mp3" : true
-	},
-	{
-		"title" : "Maat, wat doe je?",
-		"file" : "maat-wat-doe-je",
-		"mp3" : true
-	},
-	{
-		"title": "🤷‍♂️",
-		"subtitle" : "Ik begrijp er niks van",
-		"file" : "ik-begrijp-er-niks-van",
-		"mp3" : true
-	},
-	{
-		"title" : "Man man man",
-		"file" : "man-man-man",
-		"mp3" : true
-	},
-	{
-		"title" : "🏠🌲",
-		"file" : "eigen-huis-en-tuin",
-		"mp3" : true
-	},
-	{
-		"title" : "Yakety Sax",
-		"subtitle" : "Benny Hill",
-		"file" : "yakety-sax-Benny-Hill",
-		"mp3" : true
-	},
-	{
-		"title" : "English",
-		"subtitle" : "Do you speak it?",
-		"file" : "english-do-you-speak-it",
-		"mp3" : true
-	},
-	{
-		"title" : "freak out 🎶",
-		"file" : "freak-out",
-		"mp3" : true
-	},
-	{
-		"title" : "🔊 🚔",
-		"file" : "sound-of-da-police",
-		"mp3" : true
-	},
-	{
-		"title" : "Silence!",
-		"subtitle" : "I kill you",
-		"file" : "silence-I-kill-you!",
-		"mp3" : true
-	},
-	{
-		"title" : "Spannend muziekje",
-		"subtitle" : "met intro",
-		"file" : "spannend-muziekje-intro",
-		"mp3" : true
-	},
-	{
-		"title" : "Spannend muziekje",
-		"file" : "spannend-muziekje",
-		"mp3" : true
-	},
-	{
-		"title" : "Spooky 👻",
-		"file" : "spooky",
-		"mp3" : true
-	},
-	{
-		"title" : "duh!",
-		"file" : "duh",
-		"mp3" : true
-	},
-	{
-		"title" : "Yeehoe!",
-		"file" : "yieehoe",
-		"mp3" : true
-	},
-	{
-		"title" : "Rabobank",
-		"file" : "rabobank",
-		"mp3" : true
-	},
-	{
-		"title" : "R2D2",
-		"file" : "r2d2",
-		"mp3" : true
-	},
-	{
-		"title" : "Use the force",
-		"file" : "use-the-force",
-		"mp3" : true
-	},
-	{
-		"title" : "Why wish you become jedi",
-		"file" : "why-wish-you-become-jedi",
-		"mp3" : true
-	},
-	{
-		"title" : "🐐🥛",
-		"subtitle" : "De geit is gemolken",
-		"file" : "de-geit-is-gemolken",
-		"mp3" : true
-	},
-	{
-		"title" : "🦄 💃 🌈",
-		"subtitle" : "Pink fluffy unicorns",
-		"file" : "pink-fluffy-unicorns",
-		"mp3" : true
-	},
-	{
-		"title" : "🧺 Mand!",
-		"file" : "mand",
-		"mp3" : true
-	},
-	{
-		"title" : "Kort",
-		"subtitle" : "🧺 Mand(je)",
-		"file" : "Kort",
-		"mp3" : true
-	},
-	{
-		"title" : "🧺 Mand(je)",
-		"subtitle" : "net niet",
-		"file" : "mandje-net-niet",
-		"mp3" : true
-	},
-	{
-		"title" : "Nog korter",
-		"subtitle" : "🧺 Mand(je)",
-		"file" : "Nog-korter",
-		"mp3" : true
-	},
-	{
-		"title" : "🧺 Mand(je)",
-		"subtitle" : "ook nog lang",
-		"file" : "mandje-lang",
-		"mp3" : true
-	},
-	{
-		"title" : "Veel te lang, moet korter",
-		"subtitle" : "🧺 Mand(je)",
-		"file" : "Veel-te-lang-moet-korter",
-		"mp3" : true
-	},
-	{
-		"title" : "🧺 Mand(je)",
-		"subtitle" : "super lang",
-		"file" : "mandje-super-lang",
-		"mp3" : true
-	},
-	{
-		"title" : "🥳 🎶",
-		"subtitle" : "Lang zal ze leven",
-		"file" : "lang-zal-ze-leven",
-		"mp3" : true
-	},
-	{
-		"title" : "WTF Paul?",
-		"file" : "WTF-Paul",
-		"mp3" : true
-	},
-	{
-		"title" : "Doe eens normaal man",
-		"file" : "Doe eens normaal man",
-		"mp3" : true
-	},
-	{
-		"title" : "Doe lekker zelf normaal",
-		"file" : "Doe lekker zelf normaal",
-		"mp3" : true
-	},
-	{
-		"title" : "Sjongejonge",
-		"file" : "Sjongejonge",
-		"mp3" : true
-	},
-	{
-		"title" : "Ja wat ach",
-		"file" : "Ja wat ach",
-		"mp3" : true
-	},
-	{
-		"title" : "Meneer Wilders",
-		"file" : "Meneer Wilders",
-		"mp3" : true
-	},
-	{
-		"title" : "Doe eens normaal en rustig man",
-		"file" : "Doe eens normaal en rustig man",
-		"mp3" : true
-	},
-	{
-		"title" : "Jesus Christ Richard!",
-		"file" : "Richard",
-		"mp3" : true
-	}
+  {
+    "title": "Initializing",
+    "file": "Wii-fit-initializing",
+    "mp3": true
+  },
+  {
+    "title": "Womp Womp Womp",
+    "subtitle": "Sad Trombone",
+    "file": "sad-trombone",
+    "mp3": true,
+    "m4a": true
+  },
+  {
+    "title": "🥁",
+    "subtitle": "Drum roll",
+    "file": "drum-roll",
+    "mp3": true
+  },
+  {
+    "title": "🥁",
+    "subtitle": "Badum tish",
+    "file": "ba-dum-tish",
+    "mp3": true
+  },
+  {
+    "title": "🧊❄️",
+    "subtitle": "Let it goo000!!!!11!1!one",
+    "file": "Let-it-Go",
+    "mp3": true,
+    "m4a": true
+  },
+  {
+    "title": "Whip!",
+    "file": "whip-crack",
+    "mp3": true
+  },
+  {
+    "title": "What does this button do?",
+    "file": "what-does-this-button-do",
+    "mp3": true
+  },
+  {
+    "title": "Its's me Mario",
+    "file": "its-s-me-Mario",
+    "mp3": true
+  },
+  {
+    "title": "Yib Yib",
+    "file": "YipYip",
+    "mp3": true,
+    "m4a": true
+  },
+  {
+    "title": "Wat is dit?",
+    "file": "Wat-is-dit",
+    "mp3": true
+  },
+  {
+    "title": "Hallo",
+    "file": "hallo",
+    "mp3": true
+  },
+  {
+    "title": "Ik blijf het toch zeggen",
+    "file": "ja-ik-blijf-het-toch-zeggen",
+    "mp3": true
+  },
+  {
+    "title": "Groeeeeen",
+    "file": "groeeeeen",
+    "mp3": true
+  },
+  {
+    "title": "Onvoldoende!",
+    "file": "duitste-leraar-onvoldoende",
+    "mp3": true
+  },
+  {
+    "title": "Krakaka",
+    "file": "krakaka",
+    "mp3": true
+  },
+  {
+    "title": "Oh Jazeker!",
+    "file": "oh-jazeker-kort",
+    "mp3": true
+  },
+  {
+    "title": "Ja straks",
+    "file": "ja-straks",
+    "mp3": true
+  },
+  {
+    "title": "Ja vet nummer",
+    "file": "ja-vet-nummer",
+    "mp3": true
+  },
+  {
+    "title": "Rustaâag",
+    "file": "rustaaagh",
+    "mp3": true
+  },
+  {
+    "title": "Je codeert niet?",
+    "file": "codeert-niet",
+    "mp3": true,
+    "ogg": true
+  },
+  {
+    "title": "Mooie Tool",
+    "file": "mooie-tool",
+    "mp3": true,
+    "m4a": true
+  },
+  {
+    "title": "☕️🕐",
+    "file": "koffietijd",
+    "mp3": true
+  },
+  {
+    "title": "Kopje chino",
+    "file": "kopje-chino",
+    "mp3": true
+  },
+  {
+    "title": "Maat, wat doe je?",
+    "file": "maat-wat-doe-je",
+    "mp3": true
+  },
+  {
+    "title": "🤷‍♂️",
+    "subtitle": "Ik begrijp er niks van",
+    "file": "ik-begrijp-er-niks-van",
+    "mp3": true
+  },
+  {
+    "title": "Man man man",
+    "file": "man-man-man",
+    "mp3": true
+  },
+  {
+    "title": "🏠🌲",
+    "file": "eigen-huis-en-tuin",
+    "mp3": true
+  },
+  {
+    "title": "Yakety Sax",
+    "subtitle": "Benny Hill",
+    "file": "yakety-sax-Benny-Hill",
+    "mp3": true
+  },
+  {
+    "title": "English",
+    "subtitle": "Do you speak it?",
+    "file": "english-do-you-speak-it",
+    "mp3": true
+  },
+  {
+    "title": "freak out 🎶",
+    "file": "freak-out",
+    "mp3": true
+  },
+  {
+    "title": "🔊 🚔",
+    "file": "sound-of-da-police",
+    "mp3": true
+  },
+  {
+    "title": "Silence!",
+    "subtitle": "I kill you",
+    "file": "silence-I-kill-you!",
+    "mp3": true
+  },
+  {
+    "title": "Spannend muziekje",
+    "subtitle": "met intro",
+    "file": "spannend-muziekje-intro",
+    "mp3": true
+  },
+  {
+    "title": "Spannend muziekje",
+    "file": "spannend-muziekje",
+    "mp3": true
+  },
+  {
+    "title": "Spooky 👻",
+    "file": "spooky",
+    "mp3": true
+  },
+  {
+    "title": "duh!",
+    "file": "duh",
+    "mp3": true
+  },
+  {
+    "title": "Yeehoe!",
+    "file": "yieehoe",
+    "mp3": true
+  },
+  {
+    "title": "Rabobank",
+    "file": "rabobank",
+    "mp3": true
+  },
+  {
+    "title": "R2D2",
+    "file": "r2d2",
+    "mp3": true
+  },
+  {
+    "title": "Use the force",
+    "file": "use-the-force",
+    "mp3": true
+  },
+  {
+    "title": "Why wish you become jedi",
+    "file": "why-wish-you-become-jedi",
+    "mp3": true
+  },
+  {
+    "title": "🐐🥛",
+    "subtitle": "De geit is gemolken",
+    "file": "de-geit-is-gemolken",
+    "mp3": true
+  },
+  {
+    "title": "🦄 💃 🌈",
+    "subtitle": "Pink fluffy unicorns",
+    "file": "pink-fluffy-unicorns",
+    "mp3": true
+  },
+  {
+    "title": "🧺 Mand!",
+    "file": "mand",
+    "mp3": true
+  },
+  {
+    "title": "Kort",
+    "subtitle": "🧺 Mand(je)",
+    "file": "Kort",
+    "mp3": true
+  },
+  {
+    "title": "🧺 Mand(je)",
+    "subtitle": "net niet",
+    "file": "mandje-net-niet",
+    "mp3": true
+  },
+  {
+    "title": "Nog korter",
+    "subtitle": "🧺 Mand(je)",
+    "file": "Nog-korter",
+    "mp3": true
+  },
+  {
+    "title": "🧺 Mand(je)",
+    "subtitle": "ook nog lang",
+    "file": "mandje-lang",
+    "mp3": true
+  },
+  {
+    "title": "Veel te lang, moet korter",
+    "subtitle": "🧺 Mand(je)",
+    "file": "Veel-te-lang-moet-korter",
+    "mp3": true
+  },
+  {
+    "title": "🧺 Mand(je)",
+    "subtitle": "super lang",
+    "file": "mandje-super-lang",
+    "mp3": true
+  },
+  {
+    "title": "🥳 🎶",
+    "subtitle": "Lang zal ze leven",
+    "file": "lang-zal-ze-leven",
+    "mp3": true
+  },
+  {
+    "title": "WTF Paul?",
+    "file": "WTF-Paul",
+    "mp3": true
+  },
+  {
+    "title": "Doe eens normaal man",
+    "file": "Doe eens normaal man",
+    "mp3": true
+  },
+  {
+    "title": "Doe lekker zelf normaal",
+    "file": "Doe lekker zelf normaal",
+    "mp3": true
+  },
+  {
+    "title": "Sjongejonge",
+    "file": "Sjongejonge",
+    "mp3": true
+  },
+  {
+    "title": "Ja wat ach",
+    "file": "Ja wat ach",
+    "mp3": true
+  },
+  {
+    "title": "Meneer Wilders",
+    "file": "Meneer Wilders",
+    "mp3": true
+  },
+  {
+    "title": "Doe eens normaal en rustig man",
+    "file": "Doe eens normaal en rustig man",
+    "mp3": true
+  },
+  {
+    "title": "Jesus Christ Richard!",
+    "file": "Richard",
+    "mp3": true
+  }
 ]
